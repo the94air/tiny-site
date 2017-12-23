@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    background-color: coral;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+main {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aligner-item {
+  max-width: 50%;
+}
+.title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+.heading {
+    font-size: 60px;
+    margin: 0 0 30px 0;
+}
+p {
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+}
+.big-parph {
+    font-size: 37px;
+}
+.facebook-icon {
+    color: #3b5998;
+    font-size: 40px;
+    width: 35px;
+    height: 35px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0.1em;
+}
+.facebook-icon:hover, .facebook-icon:focus {
+    color: #2b4783;
+}
